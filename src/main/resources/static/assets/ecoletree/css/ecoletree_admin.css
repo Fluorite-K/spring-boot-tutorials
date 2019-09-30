@@ -1,0 +1,97 @@
+/*Çì´õ*/
+.navbar {
+    border-bottom: 3px solid #62c5de !important;
+}
+.ecoleMenu li a.sel {
+    background-color: #62c5de !important;
+}
+.ecoleSubMenuWrap {
+    background-color: #62c5de !important;
+}
+.ecoleSubMenuWrap .ecoleMenu li a {
+    background-color: #62c5de !important;
+    color: #f4fafc !important;
+}
+
+.sub01{
+	width: 400px;
+	padding-left: 100px;
+}
+.sub02{
+    width: 340px;
+    padding-left: 270px;
+}
+.btnUser a{
+	color: #6fc9e0;
+}
+
+/*¹öÆ°*/
+.btnGreen {
+	background: #62c5de !important;
+}
+
+.btnGreen:hover {
+	background: #3b8da2 !important;
+}
+.dataTables_paginate li.active a {
+    background-color: rgba(98, 197, 222, 1) !important;
+}
+
+/*ì¢Œì¸¡*/
+.ecoleSideMenu .note {
+	color: #94d8e9 !important;
+}
+.select2-chosen{
+	margin-top: 4px !important;
+}
+
+/*dropzone*/
+.dropzone, td.fc-other-month, .dz-clickable {
+	background-image: -webkit-gradient(linear,left top,right bottom,color-stop(0.25,rgba(0,0,0,.03)),color-stop(0.25,transparent),color-stop(0.5,transparent),color-stop(0.5,rgba(0,0,0,.03)),color-stop(0.75,rgba(0,0,0,.03)),color-stop(0.75,transparent),to(transparent));
+    background-image: -webkit-linear-gradient(135deg,rgba(0,0,0,.03)25%,transparent 25%,transparent 50%,rgba(0,0,0,.03)50%,rgba(0,0,0,.03)75%,transparent 75%,transparent);
+    background-image: -moz-linear-gradient(135deg,rgba(0,0,0,.03)25%,transparent 25%,transparent 50%,rgba(0,0,0,.03)50%,rgba(0,0,0,.03)75%,transparent 75%,transparent);
+    background-image: -ms-linear-gradient(135deg,rgba(0,0,0,.03)25%,transparent 25%,transparent 50%,rgba(0,0,0,.03)50%,rgba(0,0,0,.03)75%,transparent 75%,transparent);
+    background-image: -o-linear-gradient(135deg,rgba(0,0,0,.03)25%,transparent 25%,transparent 50%,rgba(0,0,0,.03)50%,rgba(0,0,0,.03)75%,transparent 75%,transparent);
+    background-image: linear-gradient(135deg,rgba(0,0,0,.03)25%,transparent 25%,transparent 50%,rgba(0,0,0,.03)50%,rgba(0,0,0,.03)75%,transparent 75%,transparent);
+    background-size: 16px 16px;
+    
+    border: 1px dashed rgba(0,0,0,.3);
+    border-radius: 5px;
+    background-color: #62c5de;
+    padding: 10px;
+    color: #ffffff;
+    
+    margin-bottom: 30px;
+}
+.dropzone2 {
+	background-image: -webkit-gradient(linear,left top,right bottom,color-stop(0.25,rgba(0,0,0,.03)),color-stop(0.25,transparent),color-stop(0.5,transparent),color-stop(0.5,rgba(0,0,0,.03)),color-stop(0.75,rgba(0,0,0,.03)),color-stop(0.75,transparent),to(transparent));
+    background-image: -webkit-linear-gradient(135deg,rgba(0,0,0,.03)25%,transparent 25%,transparent 50%,rgba(0,0,0,.03)50%,rgba(0,0,0,.03)75%,transparent 75%,transparent);
+    background-image: -moz-linear-gradient(135deg,rgba(0,0,0,.03)25%,transparent 25%,transparent 50%,rgba(0,0,0,.03)50%,rgba(0,0,0,.03)75%,transparent 75%,transparent);
+    background-image: -ms-linear-gradient(135deg,rgba(0,0,0,.03)25%,transparent 25%,transparent 50%,rgba(0,0,0,.03)50%,rgba(0,0,0,.03)75%,transparent 75%,transparent);
+    background-image: -o-linear-gradient(135deg,rgba(0,0,0,.03)25%,transparent 25%,transparent 50%,rgba(0,0,0,.03)50%,rgba(0,0,0,.03)75%,transparent 75%,transparent);
+    background-image: linear-gradient(135deg,rgba(0,0,0,.03)25%,transparent 25%,transparent 50%,rgba(0,0,0,.03)50%,rgba(0,0,0,.03)75%,transparent 75%,transparent);
+    background-size: 16px 16px;
+    
+    border: 1px dashed rgba(0,0,0,.3);
+    border-radius: 5px;
+    background-color: #ec8dad !important;
+    padding: 10px;
+    color: #ffffff;
+    
+    margin-bottom: 0px !important;
+}
+
+/*ÁÂÃø*/
+.modal p.descrip {
+    font-weight: 600;
+    color: #62c5de;
+    font-size: 14px;
+}
+.modal p.label+p.descrip{
+    padding-top: 5px;
+}
+
+/*½½¶óÀÌ´õ*/
+.slider-selection {
+    background: #62c5de;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/web/thymeleaf/layout"
+      layout:decorate="layout/defaultLayout">
+<head>
+    <title>Data Test</title>
+</head>
+<body>
+<th:block layout:fragment="content" th:with="cp=${#request.getContextPath()},initData=${initData}">
+    <h1>Page Content</h1>
+</th:block>
+
+<th:block layout:fragment="pageCustomScript">
+    <script th:inline="javascript">
+        var data = /*[[${initData}]]*/ null;
+        alert(JSON.stringify(data));
+    </script>
+</th:block>
+<!--<th:block layout:fragment="pageCustomCss"></th:block>-->
+</body>
+</html>
