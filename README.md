@@ -28,14 +28,14 @@
 
 ### Chapter 02. Spring MVC
 **6. Web MVC Configurations**
-   - [ ] 6.1. WebMvcConfigurer
-   - [ ] 6.2. Interceptors
-   - [ ] 6.3. ViewResolvers
-   - [ ] 6.4. Handlers (Resouces, Views)
+   - [x] 6.1. WebMvcConfigurer
+   - [x] 6.2. Interceptors
+   - [x] 6.3. ViewResolvers
+   - [x] 6.4. Handlers (Resouces, Views)
    
 **7. Template Engine: Thymeleaf**
-   - [ ] 7.1. What is Thymeleaf?
-   - [ ] 7.2. Thymeleaf configurations
+   - [x] 7.1. What is Thymeleaf?
+   - [x] 7.2. Thymeleaf configurations
 
 **8. Error Handle**
    - [ ] 8.1. HttpStatus Error
