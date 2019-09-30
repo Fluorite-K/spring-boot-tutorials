@@ -10,8 +10,8 @@
    - [x] 1.2. Dependencies
    
 **2. Project Structure**
-   - [ ] 2.1. Project Structure
-   - [ ] 2.2. Entry point of Application 
+   - [x] 2.1. Project Structure
+   - [x] 2.2. Entry point of Application 
 
 **3. Spring Configurations**
    - [ ] 3.1. application.properties
