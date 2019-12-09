@@ -1,6 +1,5 @@
 package me.incognito.tutorials.common.view;
 
-import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.view.AbstractView;
 
 import java.io.IOException;

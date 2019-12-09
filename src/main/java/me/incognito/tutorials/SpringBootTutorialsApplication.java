@@ -1,6 +1,5 @@
 package me.incognito.tutorials;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -42,7 +41,9 @@ class TestController {
 //    @Value("${plainProp}")
 //    private String prop2;
 
-    @Autowired
+    public TestController(final ApplicationContext ctx) {
+        this.ctx = ctx;
+    }
     private ApplicationContext ctx;
 
     @ElapsedTime
